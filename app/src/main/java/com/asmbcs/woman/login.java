@@ -68,7 +68,7 @@ public class login extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(login.this, registration.class);
                 startActivity(intent);
-                Toast.makeText(login.this, "this demo", Toast.LENGTH_SHORT).show();
+                Toast.makeText(login.this, "woman safety", Toast.LENGTH_SHORT).show();
             }
         });
     }

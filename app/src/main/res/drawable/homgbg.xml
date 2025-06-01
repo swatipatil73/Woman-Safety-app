@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Linear Gradient for Top -->
+<!--    <gradient-->
+<!--        android:startColor="#F58529"-->
+<!--        android:centerColor="#DD2A7B"-->
+<!--        android:endColor="#797FC7"-->
+<!--        android:angle="90" />-->
+<!--    <gradient-->
+<!--        android:startColor="#A41111"-->
+<!--              android:centerColor="#E03E94"-->
+<!--        android:endColor="#D57830"-->
+<!--        android:angle="90" />-->
+    <gradient
+        android:startColor="#009688"
+
+        android:endColor="#2196F3"
+        android:angle="90" />
+    <!-- Vertical gradient from top to bottom -->
+
+    <!-- Curved Bottom -->
+    <corners android:topLeftRadius="0dp" android:topRightRadius="0dp"
+        android:bottomLeftRadius="54dp" android:bottomRightRadius="54dp" />
+
+    <!-- Optional: Add shadow or elevation if needed -->
+    <!-- <elevation android:value="4dp" /> -->
+</shape>

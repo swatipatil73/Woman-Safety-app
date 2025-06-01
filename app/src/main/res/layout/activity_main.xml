@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+        <!-- Last Period Date Picker -->
+        <TextView
+            android:text="Last Period Date:"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <Button
+            android:id="@+id/selectDateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Date"/>
+
+        <!-- Cycle Length Input -->
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Cycle Length (days):"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/cycleLengthInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Enter cycle length"/>
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save  &amp; Set Reminder"/>
+
+        <!-- Result Display -->
+        <TextView
+            android:id="@+id/nextPeriodDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next Period Date: -"
+            android:textSize="18sp"
+            android:paddingTop="10dp"/>
+    </LinearLayout>
+
+

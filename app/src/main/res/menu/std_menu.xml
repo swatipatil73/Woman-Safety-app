@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_tip"
+        android:title="Tip" />
+    <item
+        android:id="@+id/menu_live_location"
+        android:title="Live Location" />
+    <item
+        android:id="@+id/menu_contact"
+        android:title="Contact" />
+    <item
+        android:id="@+id/menu_message"
+        android:title="Login" />
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <gradient
+        android:startColor="#F6F5FD"
+        android:angle="10" />
+
+    <corners android:radius="8dp" />
+
+    <!-- Add a border -->
+    <stroke
+        android:color="#D1C9E4"
+    android:width="2dp" />   <!-- Set the width of the border -->
+</shape>
